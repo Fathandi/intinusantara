@@ -10,8 +10,7 @@
     <!-- Deskripsi -->
     <meta
       name="description"
-      content="Solusi jaringan terpadu untuk bisnis Anda. 
-      PT Inti Telecom Nusantara menyediakan layanan jaringan, 
+      content=" PT Inti Telecom Nusantara menyediakan layanan jaringan, 
       infrastruktur, dan keamanan untuk meningkatkan efisiensi
       dan produktivitas."
     />
@@ -64,20 +63,22 @@
               <!--  Menu Start  -->
               <ul class="nav">
                 <li class="scroll-to-section">
-                  <a href="#top">Home</a>
+                  <a href="../index.html">Home</a>
                 </li>
                 <li class="scroll-to-section">
-                  <a href="#services" class="active">Services</a>
-                </li>
-                <li class="scroll-to-section"><a href="#about">About</a></li>
-                <li class="scroll-to-section">
-                  <a href="#portfolio">Project</a>
+                  <a href="#" class="active">Services</a>
                 </li>
                 <li class="scroll-to-section">
-                  <a href="#video">Our Brand</a>
+                  <a href="about.html">About</a>
                 </li>
                 <li class="scroll-to-section">
-                  <a href="#contact">Contact Us</a>
+                  <a href="project.html">Project</a>
+                </li>
+                <li class="scroll-to-section">
+                  <a href="vendor.html">Our Vendor</a>
+                </li>
+                <li class="scroll-to-section">
+                  <a href="../index.html#contact">Contact Us</a>
                 </li>
                 <li class="scroll-to-section">
                   <div class="main-red-button-hover">
@@ -344,5 +345,26 @@
     <script src="../assets/js/animation.js"></script>
     <script src="../assets/js/imagesloaded.js"></script>
     <script src="../assets/js/custom.js"></script>
+    <script>
+      // Acc
+      $(document).on("click", ".naccs .menu div", function () {
+        var numberIndex = $(this).index();
+
+        if (!$(this).is("active")) {
+          $(".naccs .menu div").removeClass("active");
+          $(".naccs ul li").removeClass("active");
+
+          $(this).addClass("active");
+          $(".naccs ul")
+            .find("li:eq(" + numberIndex + ")")
+            .addClass("active");
+
+          var listItemHeight = $(".naccs ul")
+            .find("li:eq(" + numberIndex + ")")
+            .innerHeight();
+          $(".naccs ul").height(listItemHeight + "px");
+        }
+      });
+    </script>
   </body>
 </html>
