@@ -868,6 +868,7 @@ Banner Style
   padding: 236px 0px 130px 0px;
   position: relative;
   overflow: hidden;
+  margin-bottom: -50px;
 }
 
 .main-banner:after {
@@ -1071,6 +1072,7 @@ About
 .about-us {
   margin-top: 0px;
   padding-top: 120px;
+  margin-bottom: 150px;
 }
 
 .about-us .left-image {
@@ -1132,6 +1134,8 @@ Portfolio
   padding-top: 120px;
   margin-top: 0px;
   position: relative;
+  margin-bottom: 150px;
+
 }
 
 .our-portfolio .section-heading {
@@ -1145,10 +1149,6 @@ Portfolio
   margin-bottom: -5px;
   position: relative;
   z-index: 1;
-}
-
-.our-portfolio {
-  margin: 0px 15px;
 }
 
 .our-portfolio .item .thumb {
@@ -1502,9 +1502,9 @@ Video
 
 .our-videos {
   position: relative;
-  margin-bottom: -30px;
+  margin-bottom: 150px;
   padding-top: 120px;
-  margin-top: 0px;
+  margin-top: 50px;
 }
 
 .our-videos .naccs {
