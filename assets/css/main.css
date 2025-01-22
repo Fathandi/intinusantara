@@ -286,7 +286,7 @@ header
 .background-header {
   background-color: #fff!important;
   height: 80px!important;
-  position: fixed!important;
+  position: relative!important;
   top: 0px;
   left: 0px;
   right: 0px;
