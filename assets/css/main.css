@@ -286,7 +286,7 @@ header
 .background-header {
   background-color: #fff!important;
   height: 80px!important;
-  position: relative!important;
+  position: fixed!important;
   top: 0px;
   left: 0px;
   right: 0px;
@@ -308,7 +308,7 @@ header
 
 .header-area {
   background-color: #fafafa;
-  position: relative;
+  position: absolute;
   top: 0px;
   left: 0px;
   right: 0px;
@@ -1982,9 +1982,6 @@ responsive
 }
 
 @media (max-width: 767px) {
-  .main-banner .item .header-text {
-    margin-top: -50px;
-  }
   .main-banner .item .down-buttons {
     display: inline-block;
   }
