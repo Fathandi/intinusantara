@@ -640,6 +640,9 @@ header
   .background-header .main-nav .nav li:nth-child(6) {
     padding-right: 0px;
   }
+  .main-banner {
+    margin-top: -50px;
+  }
 }
 
 @media (max-width: 767px) {
