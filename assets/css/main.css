@@ -104,7 +104,7 @@ header, nav, section, article, aside, footer, hgroup {
 html, body {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
-  background-color: #fff;
+  background-color: #e0dfed;
   -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -761,8 +761,8 @@ header
 preloader
 --------------------------------------------- 
 */
-/* 
-.js-preloader {
+
+/* .js-preloader {
     position: fixed;
     top: 0;
     left: 0;
@@ -854,8 +854,8 @@ preloader
     margin-left: 16px;
     background: #ec1d23;
     border-radius: 50%;
-}
- */
+} */
+
 
 
 /* 
@@ -941,7 +941,7 @@ Banner Style
   line-height: 46px;
   border-radius: 50%;
   background: #ec1d23;
-  background: linear-gradient(105deg, #ec1d23 0%, rgba(255,144,104,1) 100%);
+  background: linear-gradient(105deg, #a1030e 0%, #ec1d23 100%);
   color: #fff;
   font-size: 20px;
 }
@@ -1587,7 +1587,7 @@ Video
 
 .our-videos .nacc .thumb .overlay-effect {
   background: #ec1d23;
-  background: linear-gradient(105deg, #ec1d23 0%, rgba(255,144,104,1) 100%);
+  background: linear-gradient(105deg, #a1030e 0%, #ec1d23 100%);
   display: inline-block;
   position: absolute;
   left: 0;
@@ -1617,7 +1617,7 @@ Video
 
 .our-videos .menu .thumb .inner-content {
   background: #ec1d23;
-  background: linear-gradient(105deg, #ec1d23 0%, rgba(255,144,104,1) 100%);
+  background: linear-gradient(105deg, #a1030e 0%, #ec1d23 100%);
   border-top-left-radius: 23px;
   border-bottom-right-radius: 23px;
   position: absolute;
@@ -1699,14 +1699,13 @@ contact
 }
 
 .contact-us .info span i {
-  float: left;
   width: 46px;
   height: 46px;
   display: inline-block;
   text-align: center;
   line-height: 46px;
   background: #ec1d23;
-  background: linear-gradient(105deg, #ec1d23 0%, rgba(255,144,104,1) 100%);
+  background: linear-gradient(105deg, #a1030e 0%, #ec1d23 100%);
   border-radius: 50%;
   color: #fff;
   font-size: 22px;
