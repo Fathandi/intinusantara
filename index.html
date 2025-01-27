@@ -90,6 +90,55 @@
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="stylesheet" href="assets/css/animated.css" />
     <link rel="stylesheet" href="assets/css/owl.css" />
+
+        <!-- Scripts -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/animation.js"></script>
+    <script src="assets/js/imagesloaded.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script>
+      // Mailbox
+      function sendEmail(event) {
+        event.preventDefault(); // Mencegah form dari pengiriman default
+
+        // Mengambil nilai dari input
+        const name = document.getElementById("name").value;
+        const email = document.getElementById("email").value;
+        const message = document.getElementById("message").value;
+
+        // Membuat URL mailto
+        const subject = encodeURIComponent("Contact Form Submission");
+        const body = encodeURIComponent(
+          `Name: ${name}\nEmail: ${email}\nMessage: ${message}`
+        );
+        const mailtoLink = `mailto:Marketing@inti-nusantara.com?subject=${subject}&body=${body}`;
+
+        // Membuka link mailto
+        window.location.href = mailtoLink;
+      }
+
+      // Acc
+      $(document).on("click", ".naccs .menu div", function () {
+        var numberIndex = $(this).index();
+
+        if (!$(this).is("active")) {
+          $(".naccs .menu div").removeClass("active");
+          $(".naccs ul li").removeClass("active");
+
+          $(this).addClass("active");
+          $(".naccs ul")
+            .find("li:eq(" + numberIndex + ")")
+            .addClass("active");
+
+          var listItemHeight = $(".naccs ul")
+            .find("li:eq(" + numberIndex + ")")
+            .innerHeight();
+          $(".naccs ul").height(listItemHeight + "px");
+        }
+      });
+    </script>
   </head>
 
   <body>
@@ -443,55 +492,5 @@
       </div>
     </footer>
     <!-- Footer Area -->
-
-    <!-- Scripts -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/owl-carousel.js"></script>
-    <script src="assets/js/animation.js"></script>
-    <script src="assets/js/imagesloaded.js"></script>
-    <script src="assets/js/custom.js"></script>
-
-    <script>
-      // Mailbox
-      function sendEmail(event) {
-        event.preventDefault(); // Mencegah form dari pengiriman default
-
-        // Mengambil nilai dari input
-        const name = document.getElementById("name").value;
-        const email = document.getElementById("email").value;
-        const message = document.getElementById("message").value;
-
-        // Membuat URL mailto
-        const subject = encodeURIComponent("Contact Form Submission");
-        const body = encodeURIComponent(
-          `Name: ${name}\nEmail: ${email}\nMessage: ${message}`
-        );
-        const mailtoLink = `mailto:Marketing@inti-nusantara.com?subject=${subject}&body=${body}`;
-
-        // Membuka link mailto
-        window.location.href = mailtoLink;
-      }
-
-      // Acc
-      $(document).on("click", ".naccs .menu div", function () {
-        var numberIndex = $(this).index();
-
-        if (!$(this).is("active")) {
-          $(".naccs .menu div").removeClass("active");
-          $(".naccs ul li").removeClass("active");
-
-          $(this).addClass("active");
-          $(".naccs ul")
-            .find("li:eq(" + numberIndex + ")")
-            .addClass("active");
-
-          var listItemHeight = $(".naccs ul")
-            .find("li:eq(" + numberIndex + ")")
-            .innerHeight();
-          $(".naccs ul").height(listItemHeight + "px");
-        }
-      });
-    </script>
   </body>
 </html>
