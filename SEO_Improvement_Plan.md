@@ -1,38 +1,44 @@
-# SEO Improvement Plan
+# Rencana Peningkatan SEO untuk PT Inti Telecom Nusantara
 
-## Summary of Information Gathered
-The main pages (`index.html`, `services.html`, `about.html`, `project.html`, and `vendor.html`) have a good foundation for SEO with proper meta tags, Open Graph tags, and canonical links. There are opportunities for improvement in heading structure, image alt attributes, content optimization, and internal linking.
+## Ringkasan Informasi yang Diperoleh
+- Halaman utama (`index.html`, `services.html`, `about.html`, `project.html`, dan `vendor.html`) memiliki fondasi yang baik untuk SEO dengan tag meta, tag Open Graph, dan link kanonik yang tepat.
+- Ada peluang untuk perbaikan dalam struktur heading, atribut alt gambar, optimasi konten, dan tautan internal.
 
-## Plan
+## Rencana
 
-### 1. `index.html`
-- Review and optimize heading structure.
-- Ensure all images have descriptive alt attributes.
-- Optimize content for keyword density.
+### 1. index.html
+- Tinjau dan optimalkan struktur heading.
+- Pastikan semua gambar memiliki atribut alt yang deskriptif.
+- Optimalkan konten untuk kepadatan kata kunci.
 
-### 2. `services.html`
-- Review and optimize heading structure.
-- Ensure all images have descriptive alt attributes.
-- Optimize content for keyword density.
+### 2. services.html
+- Tinjau dan optimalkan struktur heading.
+- Pastikan semua gambar memiliki atribut alt yang deskriptif.
+- Optimalkan konten untuk kepadatan kata kunci.
 
-### 3. `about.html`
-- Review and optimize heading structure.
-- Ensure all images have descriptive alt attributes.
-- Optimize content for keyword density.
+### 3. about.html
+- Tinjau dan optimalkan struktur heading.
+- Pastikan semua gambar memiliki atribut alt yang deskriptif.
+- Optimalkan konten untuk kepadatan kata kunci.
 
-### 4. `project.html`
-- Review and optimize heading structure.
-- Ensure all images have descriptive alt attributes.
-- Optimize content for keyword density.
+### 4. project.html
+- Tinjau dan optimalkan struktur heading.
+- Pastikan semua gambar memiliki atribut alt yang deskriptif.
+- Optimalkan konten untuk kepadatan kata kunci.
 
-### 5. `vendor.html`
-- Review and optimize heading structure.
-- Ensure all images have descriptive alt attributes.
-- Optimize content for keyword density.
+### 5. vendor.html
+- Tinjau dan optimalkan struktur heading.
+- Pastikan semua gambar memiliki atribut alt yang deskriptif.
+- Optimalkan konten untuk kepadatan kata kunci.
 
-## Dependent Files to be Edited
-- All the HTML files mentioned above.
+## File Terkait yang Perlu Diedit
+- Semua file HTML yang disebutkan di atas.
 
-## Follow-up Steps
-- After editing, test the website to ensure all changes are reflected correctly.
-- Use SEO tools to analyze the site for any further improvements.
+## Langkah Tindak Lanjut
+- Setelah mengedit, uji situs web untuk memastikan semua perubahan tercermin dengan benar.
+- Gunakan alat SEO untuk menganalisis situs untuk perbaikan lebih lanjut.
+
+---
+
+**Disusun oleh:** Fathih Apriandi  
+**Tanggal:** [28/01/2025]
