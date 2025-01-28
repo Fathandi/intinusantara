@@ -137,8 +137,6 @@ Tips Menulis Deskripsi:
 *Dokumen ini akan diupdate sesuai dengan perkembangan algoritma Google dan best practices terbaru.*
 
 ```markdown
-Saya akan menjelaskan materi lengkap tentang On-Page SEO secara terstruktur.
-
 On-Page SEO adalah optimisasi yang dilakukan pada elemen-elemen di dalam website untuk meningkatkan peringkat di mesin pencari. Berikut penjelasan lengkapnya:
 
 1. Optimisasi Judul (Title Tag)
