@@ -9,16 +9,14 @@
     />
 
     <!-- SEO & Deskripsi -->
-    <title>
-      PT Inti Telecom Nusantara - Instalasi Jaringan Terpercaya
-    </title>
+    <title>PT Inti Telecom Nusantara - Instalasi Jaringan Terpercaya</title>
     <meta
       name="description"
       content="PT Inti Telecom Nusantara menyediakan layanan instalasi jaringan dan infrastruktur seperti LAN, Fiber Optic, CCTV, Repeater, WiFi."
     />
     <meta
       name="keywords"
-      content="instalasi jaringan, LAN, Fiber Optic, CCTV, Repeater, WiFi, dan perangkat pendukung lainnya."
+      content="Instalasi Jaringan,LAN, Fiber Optic, CCTV, WiFi, Infrastruktur Jaringan, PT Inti Telecom Nusantara"
     />
     <link rel="canonical" href="https://inti-nusantara.com/" />
     <link rel="icon" href="assets/images/Logo-Inti.png" />
@@ -114,7 +112,7 @@
             <nav class="main-nav">
               <!--  Logo Start  -->
               <a href="index.html" class="logo">
-                <img 
+                <img
                   src="assets/images/Logo-Inti.png"
                   alt="Logo PT Inti Telecom Nusantara"
                 />
@@ -446,7 +444,7 @@
       </div>
     </footer>
     <!-- Footer Area -->
-     
+
     <!-- Scripts -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -454,41 +452,41 @@
     <script src="assets/js/animation.js"></script>
     <script src="assets/js/imagesloaded.js"></script>
     <script src="assets/js/custom.js"></script>
-    
+
     <script>
       // Mailbox
       function sendEmail(event) {
         event.preventDefault(); // Mencegah form dari pengiriman default
-    
+
         // Mengambil nilai dari input
         const name = document.getElementById("name").value;
         const email = document.getElementById("email").value;
         const message = document.getElementById("message").value;
-    
+
         // Membuat URL mailto
         const subject = encodeURIComponent("Contact Form Submission");
         const body = encodeURIComponent(
           `Name: ${name}\nEmail: ${email}\nMessage: ${message}`
         );
         const mailtoLink = `mailto:Marketing@inti-nusantara.com?subject=${subject}&body=${body}`;
-    
+
         // Membuka link mailto
         window.location.href = mailtoLink;
       }
-    
+
       // Acc
       $(document).on("click", ".naccs .menu div", function () {
         var numberIndex = $(this).index();
-    
+
         if (!$(this).is("active")) {
           $(".naccs .menu div").removeClass("active");
           $(".naccs ul li").removeClass("active");
-    
+
           $(this).addClass("active");
           $(".naccs ul")
             .find("li:eq(" + numberIndex + ")")
             .addClass("active");
-    
+
           var listItemHeight = $(".naccs ul")
             .find("li:eq(" + numberIndex + ")")
             .innerHeight();
