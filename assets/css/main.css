@@ -894,8 +894,8 @@ Banner Style
   position: absolute;
   right: 0;
   top: 100px;
-  width: 800px;
-  height: 650px;
+  width: 704px;
+  height: 578.6px;
 }
 
 .main-banner .item {
@@ -1915,7 +1915,6 @@ responsive
     width: 640px;
     height: 526px;
   }
-
 }
 
 @media (max-width: 992px) {
