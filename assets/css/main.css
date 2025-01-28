@@ -1,10 +1,4 @@
 /*
-
-TemplateMo 565 Onix Digital
-
-https://templatemo.com/tm-565-onix-digital
-
-
 ------------------------------------------------
 Table of contents
 ------------------------------------------------
@@ -21,7 +15,9 @@ Table of contents
 11. search
 12. portfolio
 
---------------------------------------------- */
+--------------------------------------------- 
+*/
+
 /* 
 ---------------------------------------------
 font & reset css
@@ -640,9 +636,6 @@ header
   .background-header .main-nav .nav li:nth-child(6) {
     padding-right: 0px;
   }
-  .main-banner {
-    margin-top: -50px;
-  }
 }
 
 @media (max-width: 767px) {
@@ -868,7 +861,7 @@ Banner Style
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  padding: 180px 0px 130px 0px;
+  padding: 145px 0px 130px 0px;
   position: relative;
   overflow: hidden;
   margin-bottom: -50px;
