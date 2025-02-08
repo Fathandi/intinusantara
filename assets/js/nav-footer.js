@@ -35,3 +35,18 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
   
+document.addEventListener('DOMContentLoaded', function () {
+  // Cari elemen menu trigger dan elemen navigasi (ul dengan class nav)
+  const menuTrigger = document.querySelector('.menu-trigger');
+  const navMenu = document.querySelector('.main-nav ul.nav');
+
+  // Pastikan kedua elemen ditemukan sebelum menambahkan event listener
+  if (menuTrigger && navMenu) {
+    menuTrigger.addEventListener('click', function () {
+      // Toggle class "active" untuk menampilkan atau menyembunyikan menu
+      navMenu.classList.toggle('active');
+      // Opsional: toggle class pada menu trigger agar bisa di-style saat aktif
+      menuTrigger.classList.toggle('active');
+    });
+  }
+});
