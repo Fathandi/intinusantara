@@ -29,6 +29,7 @@ font & reset css
 reset
 --------------------------------------------- 
 */
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, div
 pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q,
 s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
@@ -282,7 +283,7 @@ header
 .background-header {
   background-color: #fff!important;
   height: 80px!important;
-  position: relative!important;
+  position: fixed!important;
   top: 0px;
   left: 0px;
   right: 0px;
@@ -997,7 +998,6 @@ Services Style
   position: relative;
   margin-top: 0px;
   padding-top: 120px;
-  margin-bottom: 150px;
 }
 
 .our-services .section-heading {
@@ -1067,8 +1067,6 @@ About
 
 .about-us {
   margin-top: 0px;
-  padding-top: 120px;
-  margin-bottom: 150px;
 }
 
 .about-us .left-image {
@@ -1130,8 +1128,6 @@ Portfolio
   padding-top: 120px;
   margin-top: 0px;
   position: relative;
-  margin-bottom: 150px;
-
 }
 
 .our-portfolio .section-heading {
