@@ -1006,7 +1006,7 @@
 
       // Acc
       $(document).on("click", ".naccs .menu div", function () {
-        let numberIndex = $(this).index();
+        var numberIndex = $(this).index();
 
         if (!$(this).is("active")) {
           $(".naccs .menu div").removeClass("active");
@@ -1017,7 +1017,7 @@
             .find("li:eq(" + numberIndex + ")")
             .addClass("active");
 
-          let listItemHeight = $(".naccs ul")
+          var listItemHeight = $(".naccs ul")
             .find("li:eq(" + numberIndex + ")")
             .innerHeight();
           $(".naccs ul").height(listItemHeight + "px");
