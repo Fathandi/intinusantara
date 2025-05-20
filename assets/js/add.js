@@ -41,6 +41,6 @@ $(document).on("click", ".naccs .menu div", function () {
 // Clickable Thumb
 document.querySelectorAll('.clickable-thumb').forEach(function (element) {
   element.addEventListener('click', function () {
-    document.querySelector('#portfolio').scrollIntoView({ behavior: 'smooth' });
+    document.querySelector('#video').scrollIntoView({ behavior: 'smooth' });
   });
 });
