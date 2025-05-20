@@ -952,9 +952,11 @@
       });
 
       // Clickable Thumb
-      document.querySelector('.clickable-thumb').addEventListener('click', function () {
-      document.querySelector('#video').scrollIntoView({ behavior: 'smooth' });
-  });
+      document.querySelectorAll('.clickable-thumb').forEach(function (element) {
+        element.addEventListener('click', function () {
+          document.querySelector('#portfolio').scrollIntoView({ behavior: 'smooth' });
+        });
+      });
     </script>
   </body>
 </html>
