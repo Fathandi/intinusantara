@@ -671,7 +671,7 @@
                     <div class="col-lg-4">
                       <div class="menu">
                         <div class="active">
-                          <div class="thumb">
+                          <div class="thumb clickable-thumb">
                             <img
                               src="assets/images/video-thumb-01.png"
                               alt="Vendor Local Area Network"
@@ -682,7 +682,7 @@
                           </div>
                         </div>
                         <div>
-                          <div class="thumb">
+                          <div class="thumb clickable-thumb">
                             <img
                               src="assets/images/video-thumb-02.png"
                               alt="Vendor Fiber Optic"
@@ -693,7 +693,7 @@
                           </div>
                         </div>
                         <div>
-                          <div class="thumb">
+                          <div class="thumb clickable-thumb">
                             <img
                               src="assets/images/video-thumb-03.png"
                               alt="Vendor CCTV"
@@ -704,7 +704,7 @@
                           </div>
                         </div>
                         <div>
-                          <div class="thumb">
+                          <div class="thumb clickable-thumb">
                             <img
                               src="assets/images/video-thumb-04.png"
                               alt="Vendor Wifi & Repeater"
@@ -950,6 +950,11 @@
           $(".naccs ul").height(listItemHeight + "px");
         }
       });
+
+      // Clickable Thumb
+      document.querySelector('.clickable-thumb').addEventListener('click', function () {
+      document.querySelector('#portfolio').scrollIntoView({ behavior: 'smooth' });
+  });
     </script>
   </body>
 </html>
