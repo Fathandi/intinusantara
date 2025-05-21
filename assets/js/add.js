@@ -21,7 +21,7 @@ function sendEmail(event) {
 document.getElementById("emailForm").addEventListener("submit", function (e) {
   e.preventDefault();
 
-  const message = document.getElementById("message").value;
+  const message = document.getElementById("shortMessage").value;
   const mailto = "fathihapriandi@inti-nusantara.com";
   const subject = "Hello, I am interested in your services.";
   const mailtoLink = `mailto:${mailto}?subject=${encodeURIComponent(
