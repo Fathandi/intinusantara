@@ -8,15 +8,28 @@ function sendEmail(event) {
   const message = document.getElementById("message").value;
 
   // Membuat URL mailto
-  const subject = encodeURIComponent("Contact Form Submission");
   const body = encodeURIComponent(
     `Name: ${name}\nEmail: ${email}\nMessage: ${message}`
   );
-  const mailtoLink = `mailto:fathihapriandi@inti-nusantara.com?subject=${subject}&body=${body}`;
+  const mailtoLink = `mailto:fathihapriandi@inti-nusantara.com?subject=Hello, I am interested in your services. &body=${body}`;
 
   // Membuka link mailto
   window.location.href = mailtoLink;
-  }
+}
+
+// Short Mail
+document.getElementById("emailForm").addEventListener("submit", function (e) {
+  e.preventDefault();
+
+  const message = document.getElementById("message").value;
+  const mailto = "fathihapriandi@inti-nusantara.com";
+  const subject = "Hello, I am interested in your services.";
+  const mailtoLink = `mailto:${mailto}?subject=${encodeURIComponent(
+    subject
+  )}&body=${encodeURIComponent(message)}`;
+
+  window.location.href = mailtoLink;
+});
 
 // Acc
 $(document).on("click", ".naccs .menu div", function () {
@@ -39,8 +52,8 @@ $(document).on("click", ".naccs .menu div", function () {
 });
 
 // Clickable Thumb
-document.querySelectorAll('.clickable-thumb').forEach(function (element) {
-  element.addEventListener('click', function () {
-    document.querySelector('#video').scrollIntoView({ behavior: 'smooth' });
+document.querySelectorAll(".clickable-thumb").forEach(function (element) {
+  element.addEventListener("click", function () {
+    document.querySelector("#video").scrollIntoView({ behavior: "smooth" });
   });
 });
