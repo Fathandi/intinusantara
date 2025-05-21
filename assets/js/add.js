@@ -12,7 +12,7 @@ function sendEmail(event) {
   const body = encodeURIComponent(
     `Name: ${name}\nEmail: ${email}\nMessage: ${message}`
   );
-  const mailtoLink = `mailto:Marketing@inti-nusantara.com?subject=${subject}&body=${body}`;
+  const mailtoLink = `mailto:fathihapriandi@inti-nusantara.com?subject=${subject}&body=${body}`;
 
   // Membuka link mailto
   window.location.href = mailtoLink;
